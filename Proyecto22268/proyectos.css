@@ -1,0 +1,57 @@
+/* Fondo de Proyectos Escolares */
+#FondoInicial{
+    background-image: url(https://design-assets.adobeprojectm.com/content/download/express/public/urn:aaid:sc:VA6C2:881d9e6e-2f1b-4ba4-92cd-ce57a3013253/component?assetType=TEMPLATE&etag=68fe09e404c7d74c4b2ae529206326c3&revision=0&component_id=cf38e0e7-ed85-46c3-99b1-fbcf022aebe3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#FondoPrimaria{
+    background-image: url(https://design-assets.adobeprojectm.com/content/download/express/public/urn:aaid:sc:VA6C2:881d9e6e-2f1b-4ba4-92cd-ce57a3013253/component?assetType=TEMPLATE&etag=68fe09e404c7d74c4b2ae529206326c3&revision=0&component_id=cf38e0e7-ed85-46c3-99b1-fbcf022aebe3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#FondoSecundaria{
+    background-image: url(https://design-assets.adobeprojectm.com/content/download/express/public/urn:aaid:sc:VA6C2:881d9e6e-2f1b-4ba4-92cd-ce57a3013253/component?assetType=TEMPLATE&etag=68fe09e404c7d74c4b2ae529206326c3&revision=0&component_id=cf38e0e7-ed85-46c3-99b1-fbcf022aebe3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Fin de fondo de Proyectos Escolares */
+
+/* Posición de imagen y cuadro de texto */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.section img {
+    max-width: 300px;
+    margin-right: 10px;
+}
+.section-content {
+    flex: 1;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(5, 5, 5);
+    margin: 40px 0;
+}
+/* Fin de posición de imagen y cuadro de texto */
